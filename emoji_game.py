@@ -19,7 +19,10 @@ FRAME_SKIP = 5
 
 # --- Parâmetros de jogo ------------------------------
 EMOJIS  = ["😀","😢","😮","😡","😎","😜"]
-MODEL   = "qwen2.5vl:7b"         # versão menor, roda melhor em CPU
+
+# MODEL  = "qwen2.5vl:7b"    # MODELO PESADO  
+MODEL = "qwen2.5vl:3b"        # MODELO LEVE
+
 TIMEOUT = 10                     # segundos por emoji
 CAM_ID  = 0                      # webcam padrão
 

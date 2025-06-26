@@ -3,8 +3,18 @@ neymoji v2
 
 
 ## para rodar
-vamos testar com esse modelo, qualquer coisa a gente troca:
+- faz venv
+- baixa os requirements
+- roda o ollama
+- baixa um dos modelos do ollama e configura no python qual vai usar
+
+modelo pesado:   
 ollama pull qwen2.5vl:7b
+
+modelo leve:   
+ollama pull qwen2.5vl:3b
+
+
 
 
 ## problemas:
