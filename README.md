@@ -23,3 +23,10 @@ ollama pull qwen2.5vl:3b
 - fica super travado na CPU
 - sexta se o icaro for pra aula a gente testa no notebook dele, nao sei se tem GPU integrada ou standalone, se tb ficar travado a gent em uda pra um modelo mais leve
 - vou mudar umas configs pra ver se consigo fazer rodar melhor
+
+## problemas na branch NEW
+- muito lag
+- acho que o tempo ta errado
+- as duas cameras tao travadas
+- o emoji nao aparece na tela
+- tem uns spikes na gpu, ela vai de 0 pra 20 e volta pra 0, a consulta com a AI nao ta sendo constante
